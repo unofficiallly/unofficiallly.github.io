@@ -1,0 +1,73 @@
+:root {
+    --background-color: rgb(26, 30, 46);
+    --text-color: rgb(121, 138, 156);
+    --bs-body-font-family: "arsenica-variable", sans-serif !important;
+    --bs-body-font-variation-settings: 'wght' 400, 'opsz' 100 !important;
+    --page-row-1: 500px;
+
+}
+
+body {
+    background-color: var(--background-color) !important;
+    font-family: "arsenica-variable", sans-serif;
+    font-variation-settings: "opsz" 100, "wght" 400;
+    color: rgb(121, 138, 156) !important
+}
+
+
+#brand,
+#the {
+    fill: var(--text-color) !important;
+
+
+}
+
+.nav-newspaper {
+    position: sticky;
+    top: -2px;
+    background-color: var(--background-color);
+}
+
+.nav-newspaper a {
+    color: rgb(121, 138, 156) !important;
+    padding: 2px;
+}
+
+
+
+#corner {
+    border-left: 2px solid;
+}
+
+
+.newspaper-containter {
+    padding: 20px;
+}
+
+.nav-newspaper {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 2px;
+}
+
+* {
+    border-style: 2px solid !important;
+    user-select: none;
+}
+
+.color-grey {
+    color: rgb(121, 138, 156) !important;
+}
+
+.pane {
+    max-height: var(--page-row-1);
+    text-align: justify;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.page-row-1 {
+    height: var(--page-row-1);
+}
