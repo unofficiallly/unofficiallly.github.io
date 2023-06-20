@@ -60,7 +60,7 @@ body {
 }
 
 .pane {
-    max-height: var(--page-row-1);
+    /* max-height: var(--page-row-1); */
     text-align: justify;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -69,5 +69,5 @@ body {
 
 
 .page-row-1 {
-    height: var(--page-row-1);
+    /* height: var(--page-row-1); */
 }
