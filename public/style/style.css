@@ -14,6 +14,10 @@ body {
     color: rgb(121, 138, 156) !important
 }
 
+a.active {
+    text-decoration: underline;
+}
+
 .under-construction-banner {
     background-color: black;
     width: 100%;
