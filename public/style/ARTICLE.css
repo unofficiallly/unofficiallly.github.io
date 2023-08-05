@@ -1,0 +1,48 @@
+/* ---------- dynamics ---------- */
+/* ---------- SMALL ---------- */
+@media screen {}
+
+/* ---------- MEDIUM ---------- */
+@media screen and (min-width: 700px) {
+
+}
+
+/* ---------- LARGE ---------- */
+@media screen and (min-width: 1100px) {
+
+
+}
+
+/* ---------- components ---------- */
+
+main {
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+p {
+    padding: .5rem 0 0 0;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: rgb(199, 199, 204);
+}
+
+hr {
+    height: 1px !important;
+    background-color: aliceblue ;
+    border: none;
+    opacity: .5
+}
+
+img {
+    object-fit: cover;
+    float: right;
+    width: 50%;
+    aspect-ratio: 4 / 3;
+    border: 2px solid;
+    margin: 0 0 2rem 2rem;
+
+}

@@ -1,0 +1,39 @@
+/* ---------- dynamics ---------- */
+/* ---------- SMALL ---------- */
+@media screen {}
+
+/* ---------- MEDIUM ---------- */
+@media screen and (min-width: 700px) {
+
+    p {
+        width: 75%;
+    }
+
+    p:nth-child(odd) {
+        align-self: flex-end;
+    }
+}
+
+/* ---------- LARGE ---------- */
+@media screen and (min-width: 1100px) {
+
+    p {
+        justify-content: baseline;
+        width: 75%;
+    }
+
+    p:nth-child(odd) {
+        align-self: flex-end;
+    }
+}
+
+/* ---------- components ---------- */
+
+main {
+    padding-top: .5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+

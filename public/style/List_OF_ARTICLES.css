@@ -1,0 +1,32 @@
+/* ---------- dynamics ---------- */
+/* ---------- SMALL ---------- */
+@media screen {}
+
+/* ---------- MEDIUM ---------- */
+@media screen and (min-width: 700px) {}
+
+/* ---------- LARGE ---------- */
+@media screen and (min-width: 1100px) {}
+
+/* ---------- components ---------- */
+
+a.article-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 4fr;
+    width: 100%;
+    height: 6rem;
+    padding: .5rem 0;
+    align-items: center;
+    gap: 1rem;
+}
+.author {
+
+}
+
+.date {
+
+}
+
+.description {
+
+}
